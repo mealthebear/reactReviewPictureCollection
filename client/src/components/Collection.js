@@ -1,9 +1,15 @@
-/*
+import React from 'react';
+import CollectionItem from './CollectionItem.js';
+
+var Collection = (props) => {
+  return (
   <div className="container" id="collection">
-    collection item
-    collection item
-    collection item
-    collection item
-    collection item
+    <CollectionItem/>
+    <CollectionItem/>
+    <CollectionItem/>
+    <CollectionItem/>
   </div>
-*/
+  )
+}
+
+export default Collection
